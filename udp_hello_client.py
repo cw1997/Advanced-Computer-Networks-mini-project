@@ -1,6 +1,6 @@
 import socket
 address = ('127.0.0.1', 10001)
-s = socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
+s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
 for i in range(5):
     data = b'Hello %d' % (i+1)
